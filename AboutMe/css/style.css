@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #C0D7B2;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+}
+
+h1, h2 {
+    margin: 20px auto;
+    color: #364F26;
+    width: 80%;
+}
+
+p {
+    background-color:#6B9E4C;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+ol {
+    background-color: #6B9E4C;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    padding: 10px;
+}
+blockquote p {
+    background-color: initial;
+}
+
+blockquote {
+    margin: 0 auto 20px;
+    width: 60%;
+    border-left: 5px solid #444F3E;
+    background-color: white;
+    color: #444F3E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight:normal;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 3px solid purple;
+}
+
+div {
+    margin: auto;
+}
+
+.photo {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    background-color: purple;
+    color: white;
+    font-size: 1.2rem;
+}
+
+a {
+    
+    color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    
+    
+}
+
+nav li {
+    width: 10rem;
+    background-color: purple;
+    display: inline-block;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+nav a {
+    
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-radius: 0.8rem 0.8rem 0 0;
+    background-color: green;
+    color: white;
+    font-size: initial;
+  
+}
+
+ul {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+}
+
+hr {
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: purple;
+}
