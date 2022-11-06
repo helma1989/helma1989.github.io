@@ -2,19 +2,35 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #C0D7B2;
+    background-color: #E0E0E0;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.2 rem;
+    margin-top: 0;
+}
+
+header img {
+    border: initial;
+    height: 11rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.wrapper {
+    width: 85%;
+    max-width: 1400px;
+    background-color: white;
+    padding-bottom: 1rem;
 }
 
 h1, h2 {
     margin: 20px auto;
-    color: #364F26;
+    color: #525050;
     width: 80%;
 }
 
 p {
-    background-color:#6B9E4C;
+    background-color: #A8A5A5;
+    border-radius: 0.5rem;
     width: 80%;
     padding: 10px;
     margin: auto;
@@ -22,10 +38,11 @@ p {
 }
 
 ol {
-    background-color: #6B9E4C;
+    background-color: #A8A5A5;
+    border-radius: 0.5rem;
     width: 80%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     list-style-position: inside;
     padding: 10px;
 }
@@ -51,10 +68,27 @@ cite {
     font-weight:normal;
 }
 
-img {
+
+.photo img{
     display: block;
     margin: auto;
-    border: 3px solid purple;
+    border: 3px solid #525050;
+    border-radius: 0.5rem;
+    height: 20rem;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+
+article img {
+    flex-basis: auto;
+    height: 12rem;
+    border: 3px solid #525050;
+    border-radius: 0.5rem;
 }
 
 div {
@@ -68,9 +102,9 @@ div {
 }
 
 a:hover {
-    background-color: purple;
+    background-color: #525050;
     color: white;
-    font-size: 1.2rem;
+    
 }
 
 a {
@@ -81,20 +115,21 @@ a {
 
 nav ul {
     list-style-type: none;
-    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     
 }
 
 nav li {
-    width: 10rem;
-    background-color: purple;
-    display: inline-block;
-    border-radius: 0.8rem 0.8rem 0 0;
+    width: 8rem;
 }
 
 nav a {
-    
-    color: white;
+    color: black;
     display: block;
     padding: 10px;
     text-align: center;
@@ -103,10 +138,11 @@ nav a {
 }
 
 nav a:hover {
-    border-radius: 0.8rem 0.8rem 0 0;
-    background-color: green;
+    
+    background-color: #525050;
     color: white;
     font-size: initial;
+    border-radius: 0.2rem;
   
 }
 
@@ -116,10 +152,8 @@ ul {
     padding: 0;
 }
 
-hr {
-    border: none;
-    width: 80%;
-    margin: 0 auto;
-    height: 5px;
-    background-color: purple;
+header img {
+    display: block;
+    margin: auto;
 }
+
