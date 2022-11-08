@@ -1,0 +1,167 @@
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Add color variables to root
+–––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --main-accent-color: #aad260;
+  --dark-accent-color: #12330a;
+  --light-accent-color: #dff6e8;
+  font-size: 16px;
+  font-family: Raleway;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.colored {
+  background-color: var(--main-accent-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography - here you can add fonts and use color variable in color property.
+–––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  font-size: 16px;
+}
+h2 {
+  font-family: "Homemade Apple";
+}
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.container a {
+  text-decoration: none;
+  color: white;
+  font-size:2rem;
+  font-weight: 100;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.container.logo {
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* navigation */
+
+nav ul{
+  background-color: var(--dark-accent-color);
+  padding: 20px 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+  margin: 0;
+}
+
+nav li{
+  list-style-type: none;
+  margin: 0 10px;
+
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, Arial;
+}
+
+/* Images & Media
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container.about {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+.avatar {
+  background-image: url(../images/profile_pic.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-basis: 45%;
+  height:contain;
+}
+
+div.bio{
+  flex-basis: 45%;
+}
+
+.bio span {
+  
+  border-bottom: 4px solid var(--main-accent-color);
+
+}
+
+#about h2.bio {
+  margin-bottom: 30px;
+}
+
+p.bio {
+  text-align: justify;
+}
+
+/* Gallery
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+.colored h2.bio span {
+  color: var(--dark-accent-color);
+  border-bottom: 4px solid white;
+}
+
+.gallery{
+  display: grid;
+  gap: 50px;
+  grid-auto-columns: 30%;
+  grid-template-columns: auto auto auto;
+}
+
+.portfolio a {
+  display:block;
+  transition: 0.4s ease-in-out all;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 80%;
+  position: relative;
+  border: transparent 3px solid;
+}
+/* */
+
+
+/* Social
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+ul.social{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+ul.social li{
+  list-style-type: none;
+}
+
+.social a {
+  color: var(--dark-accent-color)
+}
+
+p.copyright {
+  text-align: center;
+}
+
