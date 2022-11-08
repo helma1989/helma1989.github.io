@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --main-background-color: #F7F7F7;
+    --article-background-color: white;
+    --main-color-text: black;
+}
+
+body {
+    background-color: var( --main-background-color);
+}
+
+.logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+  }
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--main-color-text);
+    font-size: 1.2rem;
+}
+
+.big_image {
+    background-image: url("../images/chocolate.jpg");
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.toblerone {
+    position: relative;
+    
+}
+
+.posabs {
+    position: relative;
+    margin-top: -200px;
+    left: 15%;
+    width: 70%;
+    background-color: var( --main-background-color);
+    padding: 45px 45px 0 45px;
+    text-align: justify;
+    
+}
+
+article img {
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+    
+
+}
+
+.date {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.preparation {
+    background-color: var(--article-background-color);
+    padding: 20px 30px;
+}
+
+
+.ingredients {
+    padding-left: 0;
+    
+}
+
+.ingredients li {
+    list-style-type: none;
+    
+}
+
+footer img{
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+    
+}
+footer {
+    background: var(--main-background-color);
+    width: 100%;
+    padding-bottom: 20px;
+    top: -200px;
+  
+    
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
+    color: var(--main-color-text);
+
+}
+
